@@ -5,11 +5,19 @@
   <title>My Portfolio</title>
 </head>
 <body>
-
+  <nav class="navbar">
+  <div class="logo">My Portfolio</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#video">Video</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
   <h1>Hello, I'm shedykul</h1>
 <p>A beginner web developer.</p>
 
-<h2>About Me</h2>
+<h2 id="about">About Me</h2>
 <p>
 I am a beginner web developer who enjoys learning how websites work.
 I am currently learning HTML, CSS, and JavaScript and building small projects
@@ -23,13 +31,25 @@ to improve my skills.
   <li>JavaScript</li>
 </ul>
 
-<h2>Projects</h2>
+<h2 id="projects">Projects</h2>
 <ul>
   <li><strong>Portfolio Website</strong> – Personal website using HTML and CSS</li>
   <li><strong>To-Do List App</strong> – Task management app using JavaScript</li>
   <li><strong>Calculator</strong> – Basic calculator using JavaScript</li>
 </ul>
+<section id="video" class="video-section">
+  <h2>Introduction Video</h2>
+  <p>Watch this short video to know more about me.</p>
 
-<h2>Contact</h2>
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/VIDEO_ID"
+      title="Introduction Video"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<h2 id="contact">Contact</h2>
 <p>Email: shedykultech1@outlook.com</p>
 <p>GitHub: https://github.com/shedykul/portfolio.git</p>
