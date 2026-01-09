@@ -3,7 +3,8 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 20px;
-  background-color: #f4f4f4;
+  body {
+  background-color: red;
 }
 
 /* NAVBAR */
